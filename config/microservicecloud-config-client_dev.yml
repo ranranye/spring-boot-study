@@ -1,0 +1,10 @@
+server: 
+  port: 8201
+spring:
+  application:
+    name: springcloud-study-config-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: eureka7001.com:7001/eureka
