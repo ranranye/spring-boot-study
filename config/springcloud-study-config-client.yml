@@ -1,25 +1,26 @@
+
 spring:
   profiles:
-    active: dev
+    active: prod
 ---
-server: 
+server:
   port: 8201
 spring:
-  profiles: dev #开发环境
+  profiles: dev  #开发环境
   application:
-    name: springcloud-study-config-client
+    name: springcloud-study-config-client-dev
 
 eureka:
   client:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
 ---
-server: 
+server:
   port: 8202
 spring:
   profiles: prod #开发环境
   application:
-    name: springcloud-study-config-client
+    name: springcloud-study-config-client-prod
 
 eureka:
   client:
