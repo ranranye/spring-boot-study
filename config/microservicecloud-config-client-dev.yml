@@ -1,6 +1,11 @@
-server: 
+server:
   port: 8201
-name: yrr
+
+person:
+  name: yrr
+  age: 20
+
+
 spring:
   application:
     name: springcloud-study-config-client
@@ -10,3 +15,4 @@ spring:
       trace:
         #开启消息跟踪
         enabled: true
+
