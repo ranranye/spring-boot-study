@@ -2,8 +2,8 @@ server:
   port: 8201
 
 person:
-  name: yrr
-  age: 20
+  name: yrr111
+  age: 2020
 
 
 spring:
