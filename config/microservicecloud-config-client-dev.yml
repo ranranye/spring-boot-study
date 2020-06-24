@@ -9,10 +9,3 @@ person:
 spring:
   application:
     name: springcloud-study-config-client
-  cloud:
-    #消息总线
-    bus:
-      trace:
-        #开启消息跟踪
-        enabled: true
-
