@@ -1,5 +1,6 @@
 server: 
   port: 8201
+name: yrr
 spring:
   application:
     name: springcloud-study-config-client
