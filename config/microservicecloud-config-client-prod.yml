@@ -2,8 +2,8 @@ server:
   port: 8301
 
 person:
-  name: pyc111
-  age: 2020
+  name: tm
+  age: 3333
 
 
 spring:
