@@ -8,4 +8,4 @@ person:
 
 spring:
   application:
-    name: prod
+    name: springcloud-study-config-client-prod
